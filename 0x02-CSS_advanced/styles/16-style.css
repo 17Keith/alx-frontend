@@ -293,5 +293,5 @@ a {
 .container {
     width: 960px;
     margin-left: auto;
-    margin: auto;
+    margin-right: auto;
 }
