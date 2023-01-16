@@ -434,7 +434,7 @@ ul.row {
     display: block;
 }
 
-.social-link > svg {
+.social-link>svg {
     fill: var(--text-color);
 }
 
@@ -452,4 +452,20 @@ ul.row {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
+}
+
+.card-testimonial {
+    text-align: center;
+}
+
+.card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card-testimonial .card-avatar cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
