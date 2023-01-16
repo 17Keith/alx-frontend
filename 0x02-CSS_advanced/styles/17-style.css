@@ -226,7 +226,7 @@ html {
     --section-body-padding: 0 0 3rem;
     --section-footer-padding: 3rem 0 0;
     --section-footer-align: center;
-    --footer-padding: 5rem 1rem;
+    --footer-padding: 5rem 0 1rem;
 }
 
 body {
@@ -300,10 +300,11 @@ a {
 }
 
 .section-footer {
-    padding-left: var(--section-footer-align);
-    padding-right: var(--section-footer-align);
-    padding-bottom: var(--section-footer-align);
-    padding-top: var(--section-footer-align);
+    padding-left: var(--section-footer-padding);
+    padding-right: var(--section-footer-padding);
+    padding-bottom: var(--section-footer-padding);
+    padding-top: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
 }
 
 .section-title {
