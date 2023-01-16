@@ -17,7 +17,7 @@ html {
     /* Font Size Variables */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
-    --font-large-large: 1.8rem;
+    --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
 }
@@ -25,7 +25,7 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
+    font-size: var();
 }
 
 h1,
